@@ -6,6 +6,9 @@ import './App.css'
 import Hero from './pages/Hero'
 import About from './pages/About'
 import Navbar from './components/Navbar'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   )
 }
