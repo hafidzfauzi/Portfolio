@@ -13,14 +13,14 @@ export default function Contact() {
 
         <div data-aos="fade-up" data-aos-delay="300" className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="mailto:emailkamu@example.com"
+            href="mailto:hafidzfauzi021@gmail.com"
             className="px-6 py-3 rounded-full bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition"
           >
             Email Me
           </a>
 
           <a
-            href="https://github.com/usernamekamu"
+            href="https://github.com/hafidzfauzi"
             target="_blank"
             className="px-6 py-3 rounded-full border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition"
           >
