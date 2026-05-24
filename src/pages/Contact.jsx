@@ -1,31 +1,55 @@
+import { contacts } from '../data/contactData'
+
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-mt-20 min-h-screen bg-gray-900 text-white flex items-center px-6 py-24">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 data-aos="fade-up" className="text-4xl font-bold">
-          Contact Me
-        </h2>
+    <section
+      id="contact"
+      className="scroll-mt-20 min-h-screen bg-transparent text-white relative overflow-hidden px-6 py-28"
+    >
+      <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-[length:4px_4px]"></div>
 
-        <p data-aos="fade-up" data-aos-delay="150" className="mt-4 text-gray-400">
-          Tertarik bekerja sama atau ingin berdiskusi seputar cybersecurity?
-          Silakan hubungi saya.
-        </p>
+      <div className="relative z-10 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-[160px_1fr] gap-10">
+          <p data-aos="fade-up" className="text-sm text-gray-300">
+            Contact
+          </p>
 
-        <div data-aos="fade-up" data-aos-delay="300" className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="mailto:hafidzfauzi021@gmail.com"
-            className="px-6 py-3 rounded-full bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition"
-          >
-            Email Me
-          </a>
+          <div>
+            <h2
+              data-aos="fade-up"
+              data-aos-delay="150"
+              className="font-heading text-5xl sm:text-6xl md:text-8xl leading-[0.95] font-medium tracking-tight max-w-5xl"
+            >
+              Let’s connect and build something secure.
+            </h2>
 
-          <a
-            href="https://github.com/hafidzfauzi"
-            target="_blank"
-            className="px-6 py-3 rounded-full border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition"
-          >
-            GitHub
-          </a>
+            <div className="mt-16 grid md:grid-cols-2 gap-12 border-t border-white/20 pt-8">
+              <div data-aos="fade-up" data-aos-delay="250">
+                <p className="text-gray-400 leading-relaxed">
+                  Feel free to contact me for collaboration, project discussion,
+                  or cybersecurity-related opportunities.
+                </p>
+              </div>
+
+              <div data-aos="fade-up" data-aos-delay="350" className="space-y-5">
+                {contacts.map((contact) => {
+                  const Icon = contact.icon
+
+                  return (
+                    <a
+                      key={contact.name}
+                      href={contact.link}
+                      target={contact.link.startsWith('mailto:') ? undefined : '_blank'}
+                      className="flex items-center gap-4 text-xl underline underline-offset-4 hover:text-gray-400 transition"
+                    >
+                      <Icon className="text-2xl" />
+                      {contact.name}
+                    </a>
+                  )
+                })}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
