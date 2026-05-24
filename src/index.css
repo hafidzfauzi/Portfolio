@@ -1,5 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 @import "tailwindcss";
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.font-heading {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes waveSlow {
+  0%, 100% {
+    transform: translateX(-2%) translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(2%) translateY(18px) rotate(1deg);
+  }
+}
+
+@keyframes waveMedium {
+  0%, 100% {
+    transform: translateX(2%) translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(-2%) translateY(-18px) rotate(-1deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-24px);
+  }
+}
+
+.animate-wave-slow {
+  animation: waveSlow 10s ease-in-out infinite;
+}
+
+.animate-wave-medium {
+  animation: waveMedium 8s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 9s ease-in-out infinite;
+}
+
+.animate-float-delay {
+  animation: float 11s ease-in-out infinite;
 }
