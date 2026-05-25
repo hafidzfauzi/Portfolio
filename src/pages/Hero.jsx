@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen bg-transparent text-white relative overflow-hidden px-6 pt-28 md:pt-32"
-    >
+      className="min-h-[100svh] bg-transparent text-white relative overflow-hidden px-6 pt-28 md:pt-32"
+      >
 
-      <div className="relative z-10 max-w-6xl mx-auto min-h-[calc(100vh-7rem)] flex flex-col justify-center">
+      <div className="relative z-10 max-w-6xl mx-auto min-h-[calc(100svh-7rem)] flex flex-col justify-center">
         <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
           
           <div>

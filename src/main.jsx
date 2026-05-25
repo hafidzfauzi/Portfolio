@@ -8,7 +8,11 @@ import { useEffect } from 'react'
 
 function Root() {
   useEffect(() => {
-    Aos.init({ duration: 1000 })
+    Aos.init({
+      duration: 1000,
+      once: true,
+      disable: window.innerWidth < 768,
+    })
   }, [])
 
   return <App />
