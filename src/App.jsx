@@ -27,6 +27,7 @@ function App() {
         <Contact />
       </div>
 
+      <ScrollToTop />
     </div>
   )
 }
