@@ -69,7 +69,7 @@ export default function Hero() {
               <img
                 src={profileImg}
                 alt="Hafidz Fauzi"
-                className="relative w-full h-full object-cover rounded-t-full rounded-b-3xl border border-white/20 grayscale shadow-2xl"
+                className="relative w-full h-full object-cover rounded-t-full rounded-b-3xl border border-emerald-400/20 shadow-2xl contrast-105 saturate-110 brightness-105"
               />
             </div>
           </div>
