@@ -15,15 +15,18 @@ import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    <div className="relative min-h-[100svh] bg-black text-white overflow-x-hidden">
+    <div className="relative min-h-[100svh] text-white overflow-x-hidden">
       <AnimatedBackground />
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
+
       <ScrollToTop />
     </div>
   )
