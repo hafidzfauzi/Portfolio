@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="scroll-mt-20 md:min-h-screen bg-transparent text-white relative overflow-hidden px-6 py-28"
+      className="scroll-mt-20 md:min-h-screen bg-transparent text-white relative overflow-hidden px-6 pt-28 pb-40 md:py-32"
     >
       <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-[length:4px_4px]"></div>
 
@@ -23,13 +23,13 @@ export default function Projects() {
               Selected works in cybersecurity and web development.
             </h2>
 
-            <div className="mt-16 space-y-8">
+            <div className="mt-16 space-y-14 md:space-y-8">
               {projects.map((project, index) => (
                 <div
                   key={index}
                   data-aos="fade-up"
                   data-aos-delay={index * 150}
-                  className="group grid md:grid-cols-[1fr_2fr] gap-8 border-t border-white/20 pt-8"
+                  className="group grid md:grid-cols-[1fr_2fr] gap-8 border-t border-white/20 pt-8 pb-8 md:pb-0"
                 >
                   <div>
                     <p className="text-sm text-gray-500">

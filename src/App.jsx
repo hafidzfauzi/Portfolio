@@ -15,7 +15,7 @@ import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    <>
+    <div className="relative min-h-[100svh] bg-black text-white overflow-x-hidden">
       <AnimatedBackground />
       <Navbar />
       <Hero />
@@ -25,7 +25,7 @@ function App() {
       <Contact />
       <Footer />
       <ScrollToTop />
-    </>
+    </div>
   )
 }
 
