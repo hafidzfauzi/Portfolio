@@ -5,10 +5,12 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background-color: black;
 }
 
 body {
   overflow-x: hidden;
+  background-color: black;
 }
 
 .font-heading {

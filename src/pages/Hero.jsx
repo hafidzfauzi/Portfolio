@@ -7,7 +7,7 @@ export default function Hero() {
       className="min-h-[100svh] bg-transparent text-white relative overflow-hidden px-6 pt-28 md:pt-32"
     >
 
-      <div className="relative z-10 max-w-6xl mx-auto min-h-[calc(100vh-7rem)] flex flex-col justify-center">
+      <div className="relative z-10 max-w-6xl mx-auto min-h-[calc(100svh-7rem)] flex flex-col justify-center">
         <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
 
           <div>
@@ -15,8 +15,8 @@ export default function Hero() {
               data-aos="fade-up"
               className="font-heading text-5xl sm:text-6xl md:text-8xl leading-[0.95] font-medium tracking-tight"
             >
-              Cybersecurity student <br />
-              building secure digital experiences
+              Backend Developer & <br />
+              Cybersecurity Student
             </h1>
 
             <div
@@ -30,8 +30,8 @@ export default function Hero() {
 
               <div className="text-sm text-gray-400 leading-relaxed">
                 <p>
-                  I am a Cybersecurity Engineering student focused on web security,
-                  penetration testing, and vulnerability analysis.
+                  I am a Backend Developer Intern and Cybersecurity Engineering student
+                  experienced in Laravel, PostgreSQL, and REST API integration.
                 </p>
 
                 <p className="mt-5">
@@ -70,7 +70,7 @@ export default function Hero() {
               <img
                 src={profileImg}
                 alt="Hafidz Fauzi"
-                className="relative w-full h-full object-cover rounded-t-full rounded-b-3xl border border-white/20 grayscale shadow-2xl"
+                className="relative w-full h-full object-cover rounded-t-full rounded-b-3xl border border-emerald-400/20 shadow-2xl contrast-105 saturate-110 brightness-105"
               />
             </div>
           </div>

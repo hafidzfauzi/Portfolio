@@ -12,6 +12,7 @@ import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import AnimatedBackground from './components/AnimatedBackground'
 import ScrollToTop from './components/ScrollToTop'
+import Experience from './pages/Experience'
 
 function App() {
   const handleDownload = () => {
@@ -19,7 +20,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className="relative min-h-[100svh] text-white overflow-x-hidden">
       <AnimatedBackground />
       <div className="relative z-10">
         <Navbar downloadPdf={handleDownload} />
@@ -31,8 +32,9 @@ function App() {
         <Contact />
         <Footer />
       </div>
+
       <ScrollToTop />
-    </>
+    </div>
   )
 }
 

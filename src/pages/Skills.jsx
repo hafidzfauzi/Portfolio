@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="scroll-mt-20 min-h-screen bg-transparent text-white relative overflow-hidden px-6 py-28"
+      className="scroll-mt-20 md:min-h-screen bg-transparent text-white relative overflow-hidden px-6 py-28"
     >
 
       <div className="relative z-10 max-w-6xl mx-auto">

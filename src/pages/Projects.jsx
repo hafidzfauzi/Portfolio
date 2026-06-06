@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="scroll-mt-20 min-h-screen bg-transparent text-white relative overflow-hidden px-6 py-28"
+      className="scroll-mt-20 md:min-h-screen bg-transparent text-white relative overflow-hidden px-6 py-28"
     >
       <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-[length:4px_4px]"></div>
 
@@ -59,17 +59,12 @@ export default function Projects() {
 
                     <div className="flex gap-5 mt-6 text-sm">
                       <a
-                        href={project.github}
-                        className="text-white underline underline-offset-4 hover:text-gray-400 transition"
-                      >
-                        GitHub
-                      </a>
-
-                      <a
                         href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="text-white underline underline-offset-4 hover:text-gray-400 transition"
                       >
-                        Live Demo
+                        View Project ↗
                       </a>
                     </div>
                   </div>
