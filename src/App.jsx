@@ -12,6 +12,7 @@ import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import AnimatedBackground from './components/AnimatedBackground'
 import ScrollToTop from './components/ScrollToTop'
+import Experience from './pages/Experience'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Experience />
         <Projects />
         <Contact />
         <Footer />

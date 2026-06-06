@@ -1,18 +1,18 @@
 export const skillGroups = [
   {
-    title: 'Security',
-    items: ['Web Security', 'Penetration Testing', 'Vulnerability Analysis', 'OWASP Top 10'],
+    title: 'Backend',
+    items: ['Laravel', 'PHP', 'REST API'],
   },
   {
-    title: 'Tools',
-    items: ['Burp Suite', 'Nessus', 'SQLMap', 'Nmap'],
+    title: 'Database & BaaS',
+    items: ['PostgreSQL', 'MySQL', 'Supabase'],
   },
   {
-    title: 'Development',
-    items: ['React', 'Tailwind CSS', 'PHP', 'JavaScript'],
+    title: 'Testing & Tools',
+    items: ['Functional Testing', 'Quality Assurance', 'Postman', 'Git'],
   },
   {
-    title: 'Database & OS',
-    items: ['MySQL', 'Linux', 'Windows Server'],
+    title: 'Certifications',
+    items: ['Junior Network Admin (BNSP)', 'AWS Cloud Foundations', 'CCNAv7', 'Web Programming'],
   },
 ]

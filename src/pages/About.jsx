@@ -28,17 +28,13 @@ export default function About() {
                 className="text-gray-400 leading-relaxed"
               >
                 <p>
-                  I am a Cybersecurity Engineering student with a strong interest
-                  in web security, penetration testing, and vulnerability analysis.
-                  I enjoy learning how systems work, identifying potential
-                  weaknesses, and documenting technical projects to improve my
-                  practical skills.
+                  I am a Backend Developer Intern and Cyber Security Engineering student
+                  experienced in Laravel, PostgreSQL, REST API integration, and software testing.
                 </p>
 
                 <p className="mt-5">
-                  My current focus is building a portfolio that showcases
-                  cybersecurity projects, security testing documentation, and
-                  web-based applications developed using modern technologies.
+                  I have contributed to Helpdesk Management System and Company Profile development
+                  while focusing on building reliable and maintainable web applications.
                 </p>
               </div>
 
@@ -56,7 +52,7 @@ export default function About() {
                 </h3>
 
                 <p className="text-gray-400 mt-3">
-                  Cybersecurity Engineering
+                  D4 Rekayasa Keamanan Siber
                 </p>
 
                 <p className="text-gray-500 mt-1">

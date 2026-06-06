@@ -59,17 +59,12 @@ export default function Projects() {
 
                     <div className="flex gap-5 mt-6 text-sm">
                       <a
-                        href={project.github}
-                        className="text-white underline underline-offset-4 hover:text-gray-400 transition"
-                      >
-                        GitHub
-                      </a>
-
-                      <a
                         href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="text-white underline underline-offset-4 hover:text-gray-400 transition"
                       >
-                        Live Demo
+                        View Project ↗
                       </a>
                     </div>
                   </div>

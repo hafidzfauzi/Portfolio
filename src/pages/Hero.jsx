@@ -15,8 +15,8 @@ export default function Hero() {
               data-aos="fade-up"
               className="font-heading text-5xl sm:text-6xl md:text-8xl leading-[0.95] font-medium tracking-tight"
             >
-              Cybersecurity student <br />
-              building secure digital experiences
+              Backend Developer & <br />
+              Cybersecurity Student
             </h1>
 
             <div
@@ -30,13 +30,14 @@ export default function Hero() {
 
               <div className="text-sm text-gray-400 leading-relaxed">
                 <p>
-                  I am a Cybersecurity Engineering student focused on web security,
-                  penetration testing, and vulnerability analysis.
+                  I am a Backend Developer Intern and Cybersecurity Engineering student
+                  experienced in Laravel, PostgreSQL, and REST API integration.
                 </p>
 
                 <p className="mt-5">
-                  This portfolio documents my learning journey, security projects,
-                  and practical experiments in building safer digital systems.
+                  Based in Cilacap, Indonesia.<br/>
+                  Email: hafidzfauzi021@gmail.com <br/>
+                  <a href="https://linkedin.com/in/hafidz-fauzi-86aa68300" target="_blank" className="hover:text-white transition">LinkedIn</a> &nbsp;|&nbsp; <a href="https://github.com/hafidzfauzi" target="_blank" className="hover:text-white transition">GitHub</a>
                 </p>
 
                 <div className="mt-6 flex gap-4">

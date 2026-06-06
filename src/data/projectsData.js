@@ -1,23 +1,14 @@
 export const projects = [
   {
-    title: 'Web Security Testing',
-    desc: 'Security testing project focused on identifying vulnerabilities in web applications using vulnerability assessment and penetration testing methods.',
-    tech: ['Burp Suite', 'OWASP', 'Web Security'],
-    github: '#',
-    demo: '#',
+    title: 'Helpdesk Management System (PT. Bosowa Energi)',
+    desc: 'Architected and developed a comprehensive monolithic ticket reporting web application to streamline IT support workflows and enhance operational efficiency.',
+    tech: ['PHP', 'JavaScript', 'daisyUI', 'Tailwind CSS', 'Laravel', 'MySQL', 'REST API'],
+    demo: 'https://portfolio-hafidzfauzi.xyz/helpdesk-bosowa/',
   },
   {
-    title: 'SQL Injection Lab',
-    desc: 'Local web application lab for practicing SQL Injection exploitation and mitigation techniques.',
-    tech: ['PHP', 'MySQL', 'SQLMap'],
-    github: '#',
-    demo: '#',
-  },
-  {
-    title: 'Vulnerability Scanner Report',
-    desc: 'Security assessment report based on vulnerability scanning using Nessus to analyze system weaknesses.',
-    tech: ['Nessus', 'Linux', 'Security Audit'],
-    github: '#',
-    demo: '#',
-  },
+    title: 'Company Profile Website (CV Entwo Electronic & Engineering)',
+    desc: 'Engineered a dynamic, high-performance company profile website featuring modern UI/UX design to elevate brand presence and user engagement.',
+    tech: ['PHP', 'JavaScript', 'Tailwind CSS', 'Laravel', 'PostgreSQL', 'React', 'Inertia.js', 'Supabase'],
+    demo: 'https://portfolio-hafidzfauzi.xyz/entwo-compro/',
+  }
 ]
