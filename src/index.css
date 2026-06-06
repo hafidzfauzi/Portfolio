@@ -61,3 +61,22 @@ body {
 .animate-float-delay {
   animation: float 11s ease-in-out infinite;
 }
+
+@media print {
+  @page {
+    margin: 0;
+  }
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+  nav {
+    display: none !important;
+  }
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

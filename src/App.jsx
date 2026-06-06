@@ -14,16 +14,23 @@ import AnimatedBackground from './components/AnimatedBackground'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
+  const handleDownload = () => {
+    window.print();
+  };
+
   return (
     <>
       <AnimatedBackground />
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className="relative z-10">
+        <Navbar downloadPdf={handleDownload} />
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
       <ScrollToTop />
     </>
   )
